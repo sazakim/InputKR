@@ -90,7 +90,7 @@ public class InputKR {
 		try {
 			parent.getClass().getMethod( "onTyping", String.class );
 		} catch ( Exception e ) {
-			parent.println( "Unable to find the function : ", "textChanged( String )" );
+			parent.println( "Unable to find the function : ", "onTyping( String )" );
 		}
 
 		try {
